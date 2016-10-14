@@ -88,7 +88,7 @@ public class NewBehaviourScript : MonoBehaviour {
 
 				if(start != null){
 					
-					List<int> result = AStar.Find(start.id,1,nowUnit.id,block,3);
+					List<int> result = AStar.Find(start.id,0,nowUnit.id,block,1);
 
 					if(result != null){
 
